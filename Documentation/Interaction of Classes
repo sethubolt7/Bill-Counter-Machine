@@ -1,0 +1,8 @@
+**Interaction of Classes:**
+
+*StringIntPair: Represents a pair of a string value and an integer value. Used to store product details such as name and price.
+Products: Manages a collection of products with their details. Admin can add, remove, and view product details through this class.
+Admin: Responsible for managing product details. Admin interacts with the Products class to perform operations such as adding, removing, and viewing product details.
+BillFormat: Represents the format of a bill item. Contains details such as item ID, quantity, price, and name.
+BillCounterGuy: Manages bill items and generates bills. Interacts with the Products class to fetch product details and with the BillFormat class to manage bill items.
+BillCounter: Main class that Manages the bill counter operations. Contains instances of Admin, BillCounterGuy, and Products classes. Handles user interactions and assigns operations to respective classes.*
